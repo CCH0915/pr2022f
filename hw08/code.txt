@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+  height="512" width="512" viewBox="0 0 512 512">
+
+  <image href="https://s0.gifyu.com/images/hello_kitty_Hello_Kitty_Head_ClipArt_in_PNG_File.png" height="512" width="512" />
+
+  <rect width="512" height="512" stroke="red" fill="rgba(255,255,255,0.95)" opacity="0.95" ></rect>
+
+
+  <ellipse fill="#77DD47" stroke="#246614" stroke-width="5" cx="256" cy="270" rx="200" ry="150" opacity="0.2"/>
+
+  <path d="M456 256 A200 140, 0, 0, 0, 56 256" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
+
+  <circle id="c1" cx="456" cy="256" r="1" stroke="red" fill="none">
+    <animate attributeName="r" to="10" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle id="c2" cx="56" cy="256" r="1" stroke="red" fill="none">
+    <animate attributeName="r" to="10" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="0" cy="0" r="1" stroke="blue" fill="none">
+    <animateMotion dur="6s" path="M456 256 A200 140, 0, 0, 0, 56 256" repeatCount="indefinite" rotate="auto"/>
+    <animate attributeName="r" to="15" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+
+  <path d="M100 320 L20 300" stroke="black"/>
+  <path d="M100 320 L20 350" stroke="black"/>
+  <path d="M100 320 L30 400" stroke="black"/>
+		
+  <path d="M420 320 L500 280" stroke="black"/>
+  <path d="M420 320 L500 330" stroke="black"/>
+  <path d="M420 320 L490 380" stroke="black"/>
+
+</svg>
+    

@@ -7,42 +7,6 @@
 
   <rect width="512" height="512" stroke="red" fill="rgba(255,255,255,0.95)" opacity="0.95" ></rect>
 
-  <text x="2" y="12" font-size="12" text-anchor="start" fill="red">0</text>
-  <path d="M256  64 H0 H512" stroke="lightgray" fill="white"></path>
-  <text x="2" y="68" font-size="12" text-anchor="start" fill="red">64</text>
-  <path d="M256 128 H0 H512" stroke="lightgray" fill="white"></path>
-  <text x="2" y="132" font-size="12" text-anchor="start" fill="red">128</text>
-  <path d="M256 192 H0 H512" stroke="lightgray" fill="white"></path>
-  <text x="2" y="196" font-size="12" text-anchor="start" fill="red">192</text>
-  <path d="M256 256 H0 H512" stroke="lightgray" fill="white"></path>
-  <text x="2" y="260" font-size="12" text-anchor="start" fill="red">256</text>
-  <path d="M256 320 H0 H512" stroke="lightgray" fill="white"></path>
-  <text x="2" y="324" font-size="12" text-anchor="start" fill="red">320</text>
-  <path d="M256 384 H0 H512" stroke="lightgray" fill="white"></path>
-  <text x="2" y="388" font-size="12" text-anchor="start" fill="red">384</text>
-  <path d="M256 448 H0 H512" stroke="lightgray" fill="white"></path>
-  <text x="2" y="452" font-size="12" text-anchor="start" fill="red">448</text>
-  <text x="2" y="510" font-size="12" text-anchor="start" fill="red">512</text>
-
-  <path d="M64  0 V512" stroke="lightgray" fill="white"></path>
-  <text x="58" y="12" font-size="12" text-anchor="start" fill="red">64</text>
-  <path d="M128  0 V512" stroke="lightgray" fill="white"></path>
-  <text x="118" y="12" font-size="12" text-anchor="start" fill="red">128</text>
-  <path d="M195  0 V512" stroke="lightgray" fill="white"></path>
-  <text x="186" y="12" font-size="12" text-anchor="start" fill="red">192</text>
-  <path d="M256  0 V512" stroke="lightgray" fill="white"></path>
-  <text x="246" y="12" font-size="12" text-anchor="start" fill="red">256</text>
-  <path d="M320  0 V512" stroke="lightgray" fill="white"></path>
-  <text x="310" y="12" font-size="12" text-anchor="start" fill="red">320</text>
-  <path d="M384  0 V512" stroke="lightgray" fill="white"></path>
-  <text x="374" y="12" font-size="12" text-anchor="start" fill="red">384</text>
-  <path d="M448  0 V512" stroke="lightgray" fill="white"></path>
-  <text x="438" y="12" font-size="12" text-anchor="start" fill="red">448</text>
-  <text x="492" y="12" font-size="12" text-anchor="start" fill="red">512</text>
-
-  <path d="M256 256 V270 V242 M256 256 H270 H242" stroke="black" fill="white"></path>
-
-  <text x="254" y="250" font-size="16" text-anchor="middle" fill="red">(256, 256)</text>
 
   <ellipse fill="#77DD47" stroke="#246614" stroke-width="5" cx="256" cy="270" rx="200" ry="150" opacity="0.2"/>
 
@@ -60,5 +24,15 @@
     <animateMotion dur="6s" path="M456 256 A200 140, 0, 0, 0, 56 256" repeatCount="indefinite" rotate="auto"/>
     <animate attributeName="r" to="15" dur="6s" repeatCount="indefinite"/>
   </circle>
+
+
+  <path d="M100 320 L20 300" stroke="black"/>
+  <path d="M100 320 L20 350" stroke="black"/>
+  <path d="M100 320 L30 400" stroke="black"/>
+		
+  <path d="M420 320 L500 280" stroke="black"/>
+  <path d="M420 320 L500 330" stroke="black"/>
+  <path d="M420 320 L490 380" stroke="black"/>
+
 </svg>
     
